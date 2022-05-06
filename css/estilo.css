@@ -394,23 +394,12 @@ button:hover{
 /* Seccion de servicios */
 
 
-#hero-servicios{
-    display: flex;
-    align-items: center;
-    justify-content: none;
-    text-align: center;
-    flex-direction: column;
-    height: 70vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5), 
-        rgba(0,0,0,0.5)
-    )
-    ,url("../imagenes/fondo-servicios.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.carousel-inner{
+    height: 720px;
+}
+
+.carousel-inner .img{
+    height: 600px;
 }
 
 
