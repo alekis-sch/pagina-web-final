@@ -492,10 +492,16 @@ button:hover{
 
 /* Curso gratis */
 
+#curso-gratis{
+    background-color: #f7b5cb;
+}
+
 #curso-gratis .container{
     text-align: center;
     padding: 200px 12px;
 }
+
+
 
 .clearfix{
     clear: both;
@@ -560,4 +566,16 @@ button:hover{
     }
 
 
+
+    .carousel-inner{
+        height: 16rem;
+    }
+
+    .nuestros-servicios-cards{
+        height: 1800px;
+    }
+
+
+
 }
+
