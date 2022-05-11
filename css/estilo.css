@@ -139,7 +139,7 @@ nav ul li a:hover{
 h5{
 	color: white;
 	font-size: 23px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 .pra p{
 	color: #fcfc;
@@ -493,14 +493,15 @@ button:hover{
 /* Curso gratis */
 
 #curso-gratis{
-    background-color: #f7b5cb;
+    background-color: #222222;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #curso-gratis .container{
     text-align: center;
     padding: 200px 12px;
 }
-
 
 
 .clearfix{
