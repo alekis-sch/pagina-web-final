@@ -1,13 +1,7 @@
-$colorletra: white;
-$colorletra2: #fcfc;
+@import "header";
+@import "heroindex";
+@import "serviciosindex";
 
-
-body{
-    padding: 0;
-    margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
-    box-sizing: border-box;
-}
 
 
 h1{font-size: 3.5rem;}
@@ -15,54 +9,9 @@ ul{list-style: none;}
 
 
 
+
 /* Inicio de pagina */
 
-
-#hero-index{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: 60vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5), 
-        rgba(0,0,0,0.5)
-    )
-    ,url("../imagenes/curso-prods.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-
-.title-bienvenido{
-    text-align: center;
-    width: auto; 
-}
-
-/* no va esto */
-.fondo-indexxx{
-    display: flex;
-    align-items: center;
-    justify-content: none;
-    text-align: center;
-    flex-direction: column;
-    height: 70vh;
-    color: white;
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5), 
-        rgba(0,0,0,0.5)
-    )
-    ,url("../imagenes/curso-prods.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-/* no va esto */
 
 nav{
     display: flex;
@@ -104,67 +53,6 @@ nav ul li a:hover{
     transition: .4s;
 }
 
-
-.servicios{
-    background: #262626;
-    width: 100%;
-    padding: 100px 0px;
-}
-
-.title{
-    color: white;
-    font-size: 75px;
-    width: 1780px;
-    height: 150px;
-    margin: 30px auto;
-    text-align: center;
-    justify-content: center;
-}
-
-.box-index{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 400px;
-}
-.card-index{
-	height: 365px;
-	width: 335px;
-	padding: 20px 35px;
-	background: #191919;
-	border-radius: 20px;
-	margin: 15px;
-	position: relative;
-	overflow: hidden;
-	text-align: center;
-}
-
-h5{
-	color: white;
-	font-size: 23px;
-	margin-bottom: 20px;
-}
-.pra p{
-	color: $colorletra2;
-	font-size: 16px;
-	line-height: 27px;
-	margin-bottom: 25px;
-}
-.card-index .button{
-	background-color:#f9004d;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 9px 22px;
-	border-radius: 30px;
-	transition: .4s; 
-}
-.card-index .button:hover{
-	background-color: transparent;
-	border: 2px solid #f9004d;
-	cursor: pointer;
-}
 
 /* Footer */
 
@@ -294,31 +182,6 @@ button:hover{
 
 /* Seccion de contacto */
 
-.header3{
-    background-color: #141414;
-}
-
-.header3 .title-logo{
-    margin: 0;
-    padding: 25px 25px;
-    font-weight: bold;
-    color: white;
-    font-size: 1.8rem;
-
-}
-
-.header3 nav{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 25px;
-}
-
-.header3 a{
-    padding: 5px 25px;
-    text-decoration: none;
-    
-}
 
 
 .form-register {
@@ -582,3 +445,6 @@ button:hover{
 
 
 }
+
+
+
